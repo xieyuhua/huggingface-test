@@ -1,14 +1,12 @@
 # huggingface-test
 huggingface-test
+```
 pip install -U huggingface_hub
-
 export HF_ENDPOINT=https://hf-mirror.com
-
 $env:HF_ENDPOINT = "https://hf-mirror.com"
-
 huggingface-cli download --resume-download gpt2 --local-dir Qwen2-0.5B-Instruct 
-
 huggingface-cli download --repo-type dataset --resume-download wikitext --local-dir wikitext
+```
 
 下载模型文件
 ```
